@@ -1,0 +1,66 @@
+/* h2 form{
+    margin-top: 20rem;
+} */
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+li {
+    list-style-type: none;
+    font-size: 16pt;
+}
+
+.mail {
+    margin-top: 12rem;
+    margin-left: 30rem;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    background: #f7a95f;
+    border: 1px soild silver;
+    color: #000;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(9, 9, 9);
+}
+
+.mail h2 {
+    margin-left: 7rem;
+}
+
+input {
+    font-size: 16pt;
+}
+
+input:focus,
+textarea:focus {
+    background-color: lightyellow;
+}
+
+input submit {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 12pt;
+
+}
+
+.required {
+    color: #FF0000;
+    font-size: 12pt;
+}
+
+input.Submit {
+    margin-left: 7rem;
+    border-radius: 10px;
+    border: 1px solid green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+
+input.Submit:hover {
+    transition: all ease 0.5s;
+    color: rgb(237, 126, 15);
+}
